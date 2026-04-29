@@ -1,4 +1,4 @@
-#📊 Análisis de Migración
+# 📊 Análisis de Migración
 
 ## 🧠 Contexto
 La migración es un fenómeno complejo influenciado por factores económicos, sociales y políticos.
@@ -27,13 +27,13 @@ Este proyecto analiza un dataset de migración con el objetivo de identificar pa
 El proyecto sigue un pipeline estructurado:
 
 - Limpieza de datos
-    Eliminación de nulos
-    Estandarización de categorías
+  - Eliminación de nulos
+  - Estandarización de categorías
 - Análisis exploratorio
-    Distribuciones
-    Frecuencias
+  - Distribuciones
+  - Frecuencias
 - Visualización
-    Gráficos para identificar patrones
+  - Gráficos para identificar patrones
 
 ---
 
@@ -50,7 +50,7 @@ El proyecto sigue un pipeline estructurado:
 ### Distribución de migrantes
 ![Distribución de migrantes](images/grafico1.png)
 ### Migrantes por razón de migración
-[Migrantes por razón de migración](images/grafico2.png)
+![Migrantes por razón de migración](images/grafico2.png)
 ### Relación entre PIB y migración
 ![Relación entre PIB y migración](images/grafico3.png)
 ### Diferencias de IDH
@@ -104,4 +104,4 @@ python main.py
 
 ## 👩‍💻 Autora
 Isa Urdaneta
-Data Analyst en formación
+Data Analyst
