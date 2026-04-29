@@ -103,5 +103,4 @@ python main.py
 ---
 
 ## 👩‍💻 Autora
-Isa Urdaneta
-Data Analyst
+Isa Urdaneta/ Data Analyst
