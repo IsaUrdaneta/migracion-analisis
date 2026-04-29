@@ -17,9 +17,9 @@ Este proyecto analiza un dataset de migración con el objetivo de identificar pa
 ## 📂 Dataset
 - Fuente: Datos de migración (archivo .csv)
 - Contiene información sobre:
-    País de origen
-    Razón de migración
-    Variables demográficas
+  - País de origen
+  - Razón de migración
+  - Variables demográficas
 
 ---
 
