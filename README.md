@@ -1,118 +1,107 @@
-# 🌍 Análisis de Migración Internacional (Siglo XXI)
+#📊 Análisis de Migración
 
-Proyecto de análisis de datos enfocado en identificar patrones y factores socioeconómicos asociados a los flujos migratorios entre países.
+## 🧠 Contexto
+La migración es un fenómeno complejo influenciado por factores económicos, sociales y políticos.
+Este proyecto analiza un dataset de migración con el objetivo de identificar patrones clave y generar insights accionables.
 
 ---
 
 ## 🎯 Objetivo
-
-Analizar datos de migración internacional para detectar tendencias relevantes y comprender cómo variables como el PIB y el IDH influyen en los movimientos de población.
-
----
-
-## 🧠 Alcance del proyecto
-
-El análisis incluye:
-
-- Limpieza y transformación de datos
-- Detección y eliminación de outliers (IQR)
-- Estandarización de variables categóricas
-- Análisis exploratorio (EDA)
-- Agrupamiento y agregaciones
-- Generación de nuevas variables analíticas
-- Exportación de dataset limpio
+- Analizar las principales razones de migración
+- Identificar tendencias relevantes
+- Generar visualizaciones para facilitar la interpretación de datos
+- Construir un pipeline reproducible de análisis de datos
 
 ---
 
-## 🗂️ Estructura del proyecto
+## 📂 Dataset
+- Fuente: Datos de migración (archivo .csv)
+- Contiene información sobre:
+    País de origen
+    Razón de migración
+    Variables demográficas
 
+---
 
+## ⚙️ Metodología
+El proyecto sigue un pipeline estructurado:
+
+- Limpieza de datos
+    Eliminación de nulos
+    Estandarización de categorías
+- Análisis exploratorio
+    Distribuciones
+    Frecuencias
+- Visualización
+    Gráficos para identificar patrones
+
+---
+
+## 📊 Insights clave
+
+- La mayoría de migraciones se concentran por razones económicas
+- Existe relación positiva entre PIB destino y flujo migratorio
+- El IDH del país destino suele ser mayor que el de origen
+
+👉 Esto sugiere que los factores económicos dominan el fenómeno migratorio en el dataset analizado.
+
+---
+## 📈 Visualizaciones
+### Distribución de migrantes
+![Distribución de migrantes](images/grafico1.png)
+### Migrantes por razón de migración
+[Migrantes por razón de migración](images/grafico2.png)
+### Relación entre PIB y migración
+![Relación entre PIB y migración](images/grafico3.png)
+### Diferencias de IDH
+![Diferencias de IDH](images/grafico4.png)
+---
+
+## 🏗️ Estructura del proyecto
+```bash
 migracion-analisis/
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/           # Datos originales
+│   └── processed/     # Datos limpios
 │
-├── notebooks/
+├── notebooks/         # Exploración y prototipos
 │
 ├── src/
-│ ├── limpieza.py
-│ ├── analisis.py
+│   ├── limpieza.py    # Limpieza de datos
+│   ├── analisis.py    # Análisis exploratorio
+│   ├── visualizacion.py  # Generación de gráficos
 │
-├── main.py
-├── requirements.txt
+├── images/            # Gráficos para README
+│
+├── main.py            # Pipeline principal
+├── requirements.txt   # Dependencias
 └── README.md
-
-
----
-
-## ⚙️ Tecnologías utilizadas
-
-- Python 3
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-
----
-
-## 🔄 Pipeline de datos
-
-1. Carga de datos CSV
-2. Detección de outliers mediante IQR
-3. Limpieza de datos
-4. Transformación de variables categóricas
-5. Análisis estadístico
-6. Generación de variables derivadas
-7. Exportación de dataset limpio
-
----
-
-## 📊 Principales análisis realizados
-
-- Media y mediana de migrantes
-- Migración total por razón
-- PIB promedio por país de origen/destino
-- Diferencias de IDH entre países
-- Identificación de patrones socioeconómicos
-
----
-
-## 📈 Visualizaciones (EDA)
-
-### Distribución de migrantes
-![Gráfico 1](images/grafico1.png)
-
-### Migrantes por razón de migración
-![Gráfico 2](images/grafico2.png)
-
-### Relación entre PIB y migración
-![Gráfico 3](images/grafico3.png)
-
-### Diferencias de IDH
-![Gráfico 4](images/grafico4.png)
+```
 ---
 
 ## ▶️ Cómo ejecutar
-
 ```bash
 git clone https://github.com/IsaUrdaneta/migracion-analisis.git
 cd migracion-analisis
+
+python -m venv venv
+source venv/Scripts/activate  # Windows
+
 pip install -r requirements.txt
 python main.py
+```
 
-📌 Resultados clave (ejemplo)
-La mayoría de migraciones se concentran por razones económicas
-Existe relación positiva entre PIB destino y flujo migratorio
-El IDH del país destino suele ser mayor que el de origen
+---
 
+## 🚀 Próximas mejoras
+- Dashboard interactivo (Streamlit)
+- Automatización del pipeline
+- Análisis predictivo
+- Integración con base de datos
 
-🚀 Posibles mejoras
-Modelos predictivos de migración
-Dashboard interactivo (Power BI / Streamlit)
-Integración con APIs de datos reales
-Series temporales
+---
 
-
-👩‍💻 Autor
-Isanevys Urdaneta
-Ingeniera de Petróleo | Data Analyst en formación
+## 👩‍💻 Autora
+Isa Urdaneta
+Data Analyst en formación
