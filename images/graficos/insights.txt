@@ -1,0 +1,4 @@
+- La principal razón de migración es 'Trabajo' con 66.7%.
+- Las tres principales razones concentran el 100.0% del total.
+- El país con mayor migración es 'Venezuela' con 11.1%.
+- En 'Argentina', predomina 'Trabajo' con 100.0%.
