@@ -79,11 +79,17 @@ migracion-analisis/
 
 ## 📈 Visualizaciones (EDA)
 
-- Distribución de migrantes
-- Migrantes por razón de migración
-- Relación entre PIB y migración
-- Diferencias de IDH
+### Distribución de migrantes
+![Gráfico 1](images/grafico1.png)
 
+### Migrantes por razón de migración
+![Gráfico 2](images/grafico2.png)
+
+### Relación entre PIB y migración
+![Gráfico 3](images/grafico3.png)
+
+### Diferencias de IDH
+![Gráfico 4](images/grafico4.png)
 ---
 
 ## ▶️ Cómo ejecutar
