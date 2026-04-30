@@ -83,6 +83,14 @@ El pipeline produce automáticamente:
 - Insights → insights.txt
 - Visualizaciones → carpeta images/graficos/
 
+Ejemplo de insights:
+
+```txt
+- El 65% de las migraciones son por razones económicas.
+- USA, España y Chile concentran el mayor flujo migratorio.
+- Existe correlación positiva entre PIB destino y migración.
+```
+
 ---
 
 ## 🧠 Insights principales
@@ -147,14 +155,6 @@ python main.py
 
 ---
 
-## 🚀 Roadmap
-- Dashboard interactivo con Streamlit
-- Automatización del pipeline
-- Análisis predictivo
-- Integración con base de datos
-
----
-
 ## 🚀 Próximas mejoras
 - Dashboard interactivo (Streamlit)
 - Automatización del pipeline
@@ -165,4 +165,5 @@ python main.py
 
 ## 👩‍💻 Autora
 Isanevys Urdaneta
+
 Data Analyst | Data Science
