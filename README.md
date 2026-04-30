@@ -44,9 +44,9 @@ def grafico_migrantes_por_razon(df, output_dir):
 
 Esto permite:
 
-- reutilizar funciones en distintos entornos
-- facilitar testing
-- integrar fácilmente con dashboards (Streamlit)
+- Reutilizar funciones en distintos entornos
+- Facilitar testing
+- Integrar fácilmente con dashboards (Streamlit)
 
 ---
 
